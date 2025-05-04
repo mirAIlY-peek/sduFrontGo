@@ -21,7 +21,7 @@ export default function Header() {
         <header className="flex items-center justify-between px-6 py-4 border-b bg-white shadow-md">
             {/* Логотип */}
             <Link to="/">
-                <img src="../../src/assets/logo.png" alt="Logo" className="h-10" />
+                <img src="../src/assets/logo.png" alt="Logo" className="h-10" />
             </Link>
 
             {/* Центральная часть с кнопками Home, Create Event и Calendar для десктопа */}
